@@ -23,4 +23,4 @@ async function generateSEI() {
     return log;
 }
 
-module.exports = {generateEVM, generateSEI}
+export {generateEVM, generateSEI}
