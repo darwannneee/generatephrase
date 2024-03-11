@@ -1,5 +1,5 @@
 {
-  "type": "commonjs",
+  "type": "module",
   "name": "generatephrase",
   "version": "1.0.4",
   "description": "This package for user want Generate Phrase instan",

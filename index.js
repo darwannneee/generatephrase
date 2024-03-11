@@ -1,6 +1,7 @@
 import { ethers } from "ethers";
+import { generateWallet, restoreWallet } from "@sei-js/core";
 
-function getPhrase() {
+function generateEVM() {
     const generateRandom = ethers.Wallet.createRandom()
 
     const address = generateRandom.address
@@ -14,5 +15,12 @@ function getPhrase() {
     return log;
 }
 
-console.log(getPhrase())
-export default getPhrase;
+async function generateSEI() {
+    // 12 word mnemonic by default
+    const generatedWallet = await generateWallet();
+
+    let log = `phrase : ${generatedWallet.mnemonic}`
+    return log;
+}
+
+module.exports = {generateEVM, generateSEI}
