@@ -1,0 +1,17 @@
+{
+  "type": "commonjs",
+  "name": "generatephrase",
+  "version": "1.0.4",
+  "description": "This package for user want Generate Phrase instan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "darwannneee",
+  "license": "ISC",
+  "dependencies": {
+    "@sei-js/core": "^3.2.1",
+    "ethers": "^5.7.1"
+  }
+}
