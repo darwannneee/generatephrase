@@ -4,6 +4,10 @@
   "version": "1.0.5",
   "description": "This package for user want Generate Phrase instan",
   "main": "index.js",
+  "exports": {
+    "./generateEVM": "./index.js",
+    "./generateSEI": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
