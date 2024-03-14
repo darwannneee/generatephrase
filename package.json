@@ -9,6 +9,10 @@
   },
   "keywords": [],
   "author": "darwannneee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darwannneee/generatephrase"
+  },
   "license": "ISC",
   "dependencies": {
     "@sei-js/core": "^3.2.1",
